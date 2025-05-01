@@ -44,9 +44,10 @@ export const experiences = [
     },
     {
       title: "Flutter developer",
-      institution: "ZETABOX",
+      company: "ZETABOX",
       location: "Sfax, Tunisia",
       period: "2024 - Present",
+      skills: ["Flutter", "Dart", "Mobile Development", "UI/UX Design"],
       description: "Developing mobile applications using Flutter. Collaborating with designers and backend developers to create user-friendly interfaces and seamless user experiences.",
       type: "work"
     }
