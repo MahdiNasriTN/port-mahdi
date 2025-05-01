@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e82db4d8.css",
-    "main.js": "/portfolio/static/js/main.c77e5069.js",
-    "index.html": "/portfolio/index.html",
-    "main.e82db4d8.css.map": "/portfolio/static/css/main.e82db4d8.css.map",
-    "main.c77e5069.js.map": "/portfolio/static/js/main.c77e5069.js.map"
+    "main.css": "/port-mahdi/static/css/main.e82db4d8.css",
+    "main.js": "/port-mahdi/static/js/main.c77e5069.js",
+    "index.html": "/port-mahdi/index.html",
+    "main.e82db4d8.css.map": "/port-mahdi/static/css/main.e82db4d8.css.map",
+    "main.c77e5069.js.map": "/port-mahdi/static/js/main.c77e5069.js.map"
   },
   "entrypoints": [
     "static/css/main.e82db4d8.css",
