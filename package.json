@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://mahdinasri.github.io/portfolio",
+  "homepage": "https://mahdinasri.github.io/port-mahdi",
   "eslintConfig": {
     "extends": [
       "react-app",
