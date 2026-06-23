@@ -1,42 +1,52 @@
 export const projects = [
     {
       id: 1,
-      title: "Taqwira",
-      description: "A MERN-based football field reservation platform with real-time chat, scheduling system, and user authentication.",
-      image: "/images/projects/taqwira.png",
-      tags: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
-      github: "https://github.com/MahdiNasri/Taqwira",
-      demo: "https://taqwira.com",
+      title: "KIDU — Screen-Free Audio Learning System",
+      description: "Full-stack IoT ecosystem for a children's audio player. Reverse-engineered proprietary firmware protocol, replaced defunct AWS IoT cloud with a self-hosted MQTT broker, built Flutter mobile app with BLE GATT device pairing, DNS interception tool, and NestJS backend with JWT auth, MinIO storage, and OTA firmware updates.",
+      image: "/images/projects/kidu.png",
+      tags: ["Flutter", "BLoC", "NestJS", "MQTT", "BLE/GATT", "PostgreSQL", "MinIO", "Docker", "FFmpeg", "WinDivert"],
+      github: "",
+      demo: "",
       featured: true
     },
     {
       id: 2,
-      title: "Tendresse.tn",
-      description: "A live e-commerce platform built with React and Tailwind CSS, featuring Stripe integration for secure payments.",
-      image: "/images/projects/tendresse.png",
-      tags: ["React", "Tailwind CSS", "Stripe", "Redux", "Firebase"],
-      github: "https://github.com/MahdiNasri/tendresse",
-      demo: "https://tendresse.tn",
+      title: "PMC — Project Management & Cost Control",
+      description: "Enterprise platform for construction/engineering project budgeting, resource planning, and cost forecasting. Cross-platform Flutter frontend (Web, Windows, macOS, iOS, Android) with AI chat module using MCP protocol, real-time SignalR notifications, and React + TypeScript embedded modules.",
+      image: "/images/projects/pmc.png",
+      tags: ["Flutter", "Riverpod", "React", "TypeScript", "MCP", "Node.js", "SignalR", "LLM", "Clean Architecture"],
+      github: "",
+      demo: "",
       featured: true
     },
     {
       id: 3,
-      title: "Registration Platform",
-      description: "A comprehensive registration and management platform for Mukeyem.se with user profiles and admin dashboard.",
-      image: "/images/projects/reg-mukeyem.png",
-      tags: ["React", "MongoDB", "Express", "Node.js", "JWT"],
-      github: "https://github.com/MahdiNasri/reg-mukeyem",
-      demo: "https://reg.mukeyem.se",
-      featured: false
+      title: "Planeroo — AI-Powered Study Planner",
+      description: "Smart homework & study planner for children where parents scan homework sheets to generate AI study plans. Features gamification (XP, badges, streaks), AI chat assistant, and revision sheet generation powered by OpenAI.",
+      image: "/images/projects/planeroo.png",
+      tags: ["Flutter", "Riverpod", ".NET 10", "PostgreSQL", "OpenAI", "Docker", "Clean Architecture"],
+      github: "",
+      demo: "",
+      featured: true
     },
     {
       id: 4,
-      title: "PMC (Zetabox)",
-      description: "Advanced role-based content management system with customizable dashboards and analytical features.",
-      image: "/images/projects/pmc-zetabox.png",
-      tags: ["React", "Express", "MongoDB", "Chart.js", "Material UI"],
-      github: "https://github.com/MahdiNasri/pmc-zetabox",
-      demo: "https://zetabox.io/pmc",
+      title: "Takwira — Football Reservation Platform",
+      description: "Real-time football field reservation platform with instant messaging, user authentication, scheduling system, and field management tools.",
+      image: "/images/projects/takwira.png",
+      tags: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
+      github: "",
+      demo: "",
+      featured: false
+    },
+    {
+      id: 5,
+      title: "Tendresse.tn",
+      description: "Live e-commerce platform with product catalog, secure Stripe payments, and responsive storefront.",
+      image: "/images/projects/tendresse.png",
+      tags: ["React", "Tailwind CSS", "Stripe", "Redux", "Firebase"],
+      github: "",
+      demo: "https://tendresse.tn",
       featured: false
     }
   ];

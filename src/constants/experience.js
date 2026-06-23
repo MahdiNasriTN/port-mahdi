@@ -1,54 +1,63 @@
 export const experiences = [
     {
-      title: "Instructor",
+      title: "Full Stack Developer",
+      company: "ZETABOX Engineering",
+      location: "Sfax, Tunisia",
+      period: "Mar 2025 - Present",
+      description: "Leading end-to-end development of enterprise systems (PMC, KIDU, Planeroo) across mobile, web, and backend. Architecting NestJS/.NET APIs, integrating AI chat modules with MCP protocol, managing DevOps pipelines, and delivering cross-platform Flutter applications.",
+      skills: ["Flutter", "NestJS", ".NET", "MQTT", "Docker", "AI/LLM", "MCP"],
+      type: "work"
+    },
+    {
+      title: "Frontend Developer",
+      company: "ZETABOX Engineering",
+      location: "Sfax, Tunisia",
+      period: "Oct 2024 - Feb 2025",
+      description: "Developed cross-platform mobile and web applications using Flutter and React. Built responsive UIs with Riverpod/BLoC state management, implemented Clean Architecture patterns, and integrated REST APIs with real-time SignalR notifications.",
+      skills: ["Flutter", "React", "TypeScript", "Riverpod", "BLoC", "SignalR"],
+      type: "work"
+    },
+    {
+      title: "Full Stack Web Development Instructor",
       company: "GOMYCODE",
-      location: "Tunisia",
-      period: "2024 - Present",
-      description: "Teaching web development courses focused on the MERN stack. Mentor students in building full-stack applications, conduct code reviews, and create educational content.",
-      skills: ["Teaching", "MERN Stack", "Mentoring", "Technical Training"],
-      type: "work"
-    },
-    {
-      title: "Automotive Software Developer Intern",
-      company: "PRIMATEC ENGINEERING",
       location: "Sfax, Tunisia",
-      period: "May 2022 - Sept 2022",
-      description: "Developed and maintained software systems for automotive applications. Collaborated with cross-functional teams to integrate hardware and software components.",
-      skills: ["Embedded Systems", "C++", "Automotive Software", "Testing"],
+      period: "Jul 2024 - Oct 2024",
+      description: "Led hands-on MERN stack sessions and Python courses. Designed project-based curriculum and mentored 20+ students through capstone projects.",
+      skills: ["Teaching", "MERN Stack", "Python", "Mentoring"],
       type: "work"
     },
     {
-      title: "Founder & Developer",
-      company: "Taqwira",
-      location: "Tunisia",
-      period: "2023 - Present",
-      description: "Founded and developed a football field reservation platform. Built the entire application using the MERN stack with features including real-time chat, scheduling, and payment processing.",
-      skills: ["Entrepreneurship", "Full Stack Development", "MERN", "Project Management"],
-      type: "work"
-    },
-    {
-      title: "BSc in Data Analysis & Big Data",
-      institution: "ISIMS",
+      title: "Full Stack Developer",
+      company: "Takwira Start-up",
       location: "Sfax, Tunisia",
-      period: "2021 - 2024",
-      description: "Focused on data science, database management, and big data technologies. Conducted research projects on data analysis and visualization.",
-      type: "education"
+      period: "Jan 2024 - Jun 2024",
+      description: "Built a football reservation platform with real-time messaging, user authentication, and field management tools using React, Node.js/Express, MongoDB, and Socket.io.",
+      skills: ["React", "Node.js", "MongoDB", "Socket.io"],
+      type: "work"
     },
     {
-      title: "Software Engineering",
-      institution: "IIT",
+      title: "Automotive Embedded Software Intern",
+      company: "Primatec Engineering",
+      location: "Sfax, Tunisia",
+      period: "Jun 2023 - Aug 2023",
+      description: "Integrated VSOMEIP and SILK/IT frameworks to create a communication gateway for automotive embedded applications.",
+      skills: ["Embedded Systems", "VSOMEIP", "Linux", "GitLab"],
+      type: "work"
+    },
+    {
+      title: "Engineering Degree — Web & Internet Technologies",
+      institution: "International Institute of Technology (IIT)",
       location: "Sfax, Tunisia",
       period: "2024 - 2027",
-      description: "Studied software engineering principles, algorithms, and data structures. Participated in various projects and internships to gain practical experience.",
+      description: "Software engineering with focus on web technologies, distributed systems, and modern application architectures.",
       type: "education"
     },
     {
-      title: "Flutter developer",
-      company: "ZETABOX",
+      title: "Bachelor's — Data Analysis & Big Data",
+      institution: "Higher Institute of Computer Science & Multimedia (ISIMS)",
       location: "Sfax, Tunisia",
-      period: "2024 - Present",
-      skills: ["Flutter", "Dart", "Mobile Development", "UI/UX Design"],
-      description: "Developing mobile applications using Flutter. Collaborating with designers and backend developers to create user-friendly interfaces and seamless user experiences.",
-      type: "work"
+      period: "2021 - 2024",
+      description: "Focused on data science, database management, and big data technologies.",
+      type: "education"
     }
   ];
