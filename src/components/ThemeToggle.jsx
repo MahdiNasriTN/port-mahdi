@@ -1,6 +1,6 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext } from 'react';
 import { motion } from 'framer-motion';
-import { FiSun, FiMoon, FiSettings } from 'react-icons/fi';
+import { FiSun, FiMoon } from 'react-icons/fi';
 import ThemeContext from '../contexts/ThemeContext';
 
 const ThemeToggle = ({ className = '' }) => {
